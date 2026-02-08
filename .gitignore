@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+# hn_agent Python cache
+hn_agent/**/__pycache__/
+*.py[cod]
+*$py.class
+.Python
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+logs/
+*.log
+
+# Environment variables
+.env
+
+# Data and cache
+data/
+.cache/
+*.db
+*.sqlite
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Gradio
+gradio_cached_examples/
+flagged/
+
+# HuggingFace
+dummy_agent/
